@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: mywebapp-testing
+global:
+  application_name: MyWebApp
+  default_ec2_keyname: aws-virginia-key
+  default_platform: 64bit Amazon Linux 2015.03 v2.0.2 running Docker 1.7.1
+  default_region: us-east-1
+  profile: null
+  sc: git
